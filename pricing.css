@@ -1,0 +1,342 @@
+.header-background{
+background-image: url(face10.jpg);
+background-size: cover;
+height: 45vw;
+background-attachment: scroll;
+}
+.nav-item a{
+  color: white;
+}
+#navcol-1{
+  float: right;
+  padding-bottom:15px; 
+  padding-top:15px;
+}
+#navcol-1 a{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+
+}
+.navbar-brand{
+  color: black;
+}
+
+.container-fluid{
+  padding-top: 25px;
+  padding-right: 30px;
+  padding-left: 30px;
+
+}
+.container-fluid a {
+font-size: 20px;
+padding: 5px;
+padding-left: 20px;
+}
+
+
+.title{
+text-align: center;
+padding: 30px 80px 0px 80px;
+color: black;
+font-size: 20px;
+}
+
+.title h3 {
+	font-size: 32px;
+}
+
+
+.nav>li>a:hover {
+text-decoration:underline;
+text-decoration-color: orange;
+background-color: #C0C0C0 ;
+}
+.nav>li>a:focus{
+  background-color: orange; 
+  color: white; 
+  border-radius: 60px;
+}
+
+
+
+.footer-clean{
+  background-color: #091d40;
+color: white;
+text-decoration: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.form-inline{
+text-align: center;
+}
+.form-control{
+  float: left;
+  border-radius: 16px 0 0 16px;
+}
+.btn-primary{
+  float: right;
+    border-radius: 0 16px 16px 0;
+    height: 34px;
+  background-color: orange;
+    border-color: orange;
+
+}
+ul h3{
+  text-align: inherit;
+}
+
+.row{
+width: 100%;
+margin-right: 0px;
+margin-left: 0px;
+padding-top: 50px;
+}
+li{
+list-style-type: none;
+}
+/*
+section.pricing {
+  background: #9CECFB;
+  /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+  /* Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.card-title{
+  padding-bottom:30px;
+  padding-top:30px;
+
+}
+
+
+.pricing .card {
+  border: none;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 18px;
+  letter-spacing: .1rem;
+}
+
+.pricing .card-price {
+  font-size: 40px;
+  margin: 0;
+  font-weight: bold;
+
+}
+
+.pricing .card-price .period{
+  font-size: 1.5rem;
+}
+
+
+.pricing ul li {
+  margin-bottom: 1rem;
+  font-size: 12px;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+    width: 50%;
+  background-color: orange;
+    border-color: orange;
+    position: absolute;
+    left: 25%;
+    bottom: 30px;
+    height: 50px;
+}
+
+
+
+.fa-check{
+  color: orange;
+}
+
+.fa-ul{
+  margin: 25px;
+}
+
+
+
+/* Hover Effects on Card */
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+
+
+.cont-get{
+  background-color: #0d81f0;
+  padding: 60px;
+}
+
+
+.row{
+width: 100%;
+margin-right: 0px;
+margin-left: 0px;
+padding-top: 50px;
+}
+
+.intro{
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.text-build{
+  text-align: left;
+  color: white;
+  font-size: 30px;
+}
+
+.btn-get{
+  background-color: orange;
+  border-radius: 25px;
+    padding: 6px 12px;
+  color: white;
+  border-style: none;
+  width: 180px;
+  margin-left: 50%;
+  margin-top: 5%;
+  height: 50px;
+}
+
+.footer-clean{
+  background-color: #091d40;
+color: white;
+text-decoration: none;
+}
+
+.form-control{
+  float: left;
+  border-radius: 16px 0 0 16px;
+}
+
+.btn-primary{
+  float: right;
+    border-radius: 0 16px 16px 0;
+    height: 34px;
+  background-color: orange;
+    border-color: orange;
+}
+
+ul h3{
+  text-align: inherit;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.form{
+      display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+h3{
+text-align: center;
+}
+
+.form-inline{
+text-align: center;
+}
+
+li{
+list-style-type: none;
+}
+
+.card-body{
+  padding-top: 50px;
+}
+
+.container{
+  padding-bottom: 60px;
+}
+
+
+
+@media screen and (max-width: 767px){
+.navbar-toggler{
+display: inherit;}}
+
+
+@media screen and (width:768px)
+{
+.header-background{
+background-image: url(face10.jpg);
+background-size: cover;
+height: 70vw;
+}
+#page-title{
+  float: right;
+ padding-top: 0px;
+  width: 350px;
+  margin-bottom: 20px;
+}
+.title{
+  width: 300px;
+  padding-top: 0px;
+}
+
+}
+
+
+@media screen and (max-width: 426px){
+.header-background{
+background-image: url(face10.jpg);
+background-size: cover;
+height: -webkit-fill-available;
+width: 100%;
+}
+#page-title{
+ padding-top: 0px;
+  width: 300px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+padding: 0px;
+}
+.title{
+  width: 100%;
+  padding-top: 0px;
+}
+.container-fluid{
+  padding: 0px;
+}
+}
+
+@media screen and (min-width: 1200px){
+  .py-5{
+    margin-top: -450px;
+  
+  }
+.title{
+  color: white;
+}
+}

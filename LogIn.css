@@ -1,0 +1,150 @@
+.nav-item a{
+	color: black;
+}
+#navcol-1{
+	float: right;
+	padding-bottom:15px; 
+	padding-top:15px;
+}
+#navcol-1 a{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 15px;
+
+}
+.navbar-brand{
+	color: black;
+}
+
+.container-fluid{
+  padding-top: 25px;
+  padding-right: 30px;
+  padding-left: 30px;
+
+}
+.container-fluid a {
+font-size: 20px;
+padding: 5px;
+padding-left: 20px;
+}
+
+.registar-photo{
+	background: #f1f7fc;
+	padding: 80px 0;
+	box-shadow: 0px 11px 8px 0 rgba(0.2, 0, 0, 0), inset 1px 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.registar-photo .form-container{
+	display: table;
+	max-width: 900px;
+	width: 90%;
+	margin: 0 auto;
+
+}
+.image-holder {
+ display: table-cell;
+ width: 40%;
+ background: url(dream.jpg);
+ background-size: cover;
+border-radius: 20px 0px 0px 20px;
+
+ }
+.registar-photo form {
+		display: table-cell;
+			width: 400px;
+	background-color: #ffffff;
+	padding: 100px 60px;
+
+	color: #505e6c;
+border-radius: 	0px 30px 30px 0px;
+}
+.registar-photo form h2{
+font-size: 24px;
+line-height: 1.5;
+margin-bottom: 30px;
+}
+.form-group{
+}
+.form-control{
+	border-bottom: 1px solid #dfe7f1;
+	border-radius: 0;
+	border: blue;
+	box-shadow: 0;
+	outline: none;
+	color: inherit;
+	text-indent: 6px;
+	height: 40px;
+margin-bottom: 20px;
+
+}
+
+.form-group .btn-primary{
+background: orange;
+border:none;
+border-radius: 20px;
+box-shadow: none;
+margin-bottom: 20px;
+height: 34px;
+width: 150px;
+float: unset;
+}
+.btn-facebook {
+	  background: #3B5998;
+	  border-radius: 20px;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #263961; 
+width: 150px;
+
+	}
+
+
+
+.footer-clean{
+	background-color: #091d40;
+color: white;
+text-decoration: none;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.form-inline{
+text-align: center;
+}
+.form-control{
+	float: left;
+	border-radius: 30px 0 0 30px;
+}
+.btn-primary{
+    float: right;
+    border-radius: 0 16px 16px 0;
+    height: 34px;
+    background-color: orange;
+    border-color: orange;
+
+}
+ul h3{
+	text-align: inherit;
+}
+
+.row{
+width: 100%;
+margin-right: 0px;
+margin-left: 0px;
+padding-top: 50px;
+}
+li{
+list-style-type: none;
+}
+
+.nav>li>a:hover {
+text-decoration:underline;
+text-decoration-color: orange;
+background-color: white;
+}
+.nav>li>a:focus{
+	background-color: orange; 
+	color: white; border-radius: 60px;
+}

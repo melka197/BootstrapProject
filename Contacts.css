@@ -1,0 +1,149 @@
+.header-background{
+background-image: url(face10.jpg);
+background-size: cover;
+height: 45vw;
+background-attachment: scroll;
+}
+
+.nav-item a{
+    color: white;
+}
+#navcol-1{
+    float: right;
+    padding-bottom:15px; 
+    padding-top:15px;
+}
+#navcol-1 a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+
+}
+.navbar-brand{
+    color: black;
+}
+
+.container-fluid{
+  padding-top: 25px;
+  padding-right: 30px;
+  padding-left: 30px;
+
+}
+.container-fluid a {
+font-size: 20px;
+padding: 5px;
+padding-left: 20px;
+}
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+background-size: cover;
+
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color:black; 
+    font-weight: bold;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 20px;
+    padding: 1.5%;
+    color: #808080  ;
+    cursor: pointer;
+        background-color: orange;
+                margin-top: 15px;
+
+}
+.contact-icons{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.social{
+margin-bottom: 72px;
+}
+.form-group h4{
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.footer-clean{
+    background-color: #091d40;
+color: white;
+text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-inline{
+text-align: center;
+}
+.form-control{
+    float: left;
+    border-radius: 16px 0 0 16px;
+}
+.btn-primary{
+    float: right;
+        border-radius: 0 16px 16px 0;
+        height: 34px;
+    background-color: orange;
+        border-color: orange;
+
+}
+ul h3{
+    text-align: inherit;
+}
+
+.row{
+width: 100%;
+margin-right: 0px;
+margin-left: 0px;
+padding-top: 50px;
+}
+li{
+list-style-type: none;
+}
+
+.nav>li>a:hover {
+text-decoration:underline;
+text-decoration-color: orange;
+background-color: #C0C0C0 ;
+}
+.nav>li>a:focus{
+  background-color: orange; 
+  color: white; 
+  border-radius: 60px;
+}
+
+
+@media screen and (min-width: 1200px){
+    .post{
+        margin-top: -500px;
+    }
+    .contact-form h3{
+    color: white;
+}
+}
